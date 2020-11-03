@@ -4,6 +4,7 @@
 ;(reset)
 ;(run)
 (defglobal ?*numero* = (random 0 100))
+(deffacts hechos-iniciales (adivinar))
 (defrule adivinar
 	?h <- (adivinar)
 	=>
